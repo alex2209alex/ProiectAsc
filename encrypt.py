@@ -1,6 +1,7 @@
 import hashlib
 import sys
 
+#criptarea cu sha256 preluata de pe https://medium.com/@dwernychukjosh/sha256-encryption-with-python-bf216db497f9
 def encrypt_string(hash_string):
     sha_signature = \
         hashlib.sha256(hash_string.encode()).hexdigest()
@@ -16,6 +17,7 @@ def xor_encrypt(input_file, output_file, password):
     xorKey = ceil(len(text)/len(xorKey)) * xorKey
     length = len(text)
 
+#for-ul este scris cu resurse de pe https://discord.com/channels/746054418696372224/746054418696372227/914880688916922441
     for i, key in zip(range(length), xorKey):
 
         text = (text[:i] +
