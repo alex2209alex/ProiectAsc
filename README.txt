@@ -1,6 +1,6 @@
 Numele echipei noastre: The Robotors
 Numele echipei adverse: XorT11am
-Cheia echipei adverse: ProiectAsc123
+Cheia echipei adverse: ProiectASC123
 
 Rezolvare cerinta 1:
 Printr-o xor-are a primelor 30 de caractere din fisierelor de input_oponenti.txt si output_oponenti caracter cu caracter s-a obtinut un fisier in care apare parola oponentilor
