@@ -1,13 +1,10 @@
 Numele echipei noastre: The Robotors
 Numele echipei adverse: XorT11am
-Cheia echipei adverse: PPPPPPPPPP (10P) sau PPPPPPPPPPP (11P) sau PPPPPPPPPPPP (12P) sau PPPPPPPPPPPPP (13P) sau PPPPPPPPPPPPPP (14P) sau PPPPPPPPPPPPPPP (15P)
-Aceasta nu poate fi identificata cu exactitate deoarece echipa oponenta nu a implementat validarea parolei pt criptare / decriptare si toate parolele de mai sus ar cripta
-si decripta fisierele in mod identic.
+Cheia echipei adverse: ProiectAsc123
 
 Rezolvare cerinta 1:
 Printr-o xor-are a primelor 30 de caractere din fisierelor de input_oponenti.txt si output_oponenti caracter cu caracter s-a obtinut un fisier in care apare parola oponentilor
-repetata. Acest lucru este facut
-in scriptul cerinta1.py
+repetata. Acest lucru este facut in scriptul cerinta1.py
 
 ----------------------------------------------------------------------------------------------------------------
 Parola aleasa de noi hashuita cu sha256:
