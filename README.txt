@@ -23,7 +23,7 @@ Presupun prin absurd ca parola adversarilor are doar 12 caractere. Atunci incerc
 caracterele aflate in fisierul de output_oponenti pe pozitii criptate de prima cifra si afisez in fisierul cerinta2_parola_12_output.txt pentru fiecare caracter ce caractere rezulta
 daca l-as folosi pe prima pozitie. Studiind fisierul cerinta2_parola_12_output.txt am observat ca doar caracterele c si d pot fi eligibile sa se afle pe prima pozitie. Acum incerc sa gasesc
 caracterele care ar putea fi pe a doua pozitie. Studiind fisierul cerinta2_parola_12_output.txt am observat ca niciun caracter din A...Z, a...z sau 0...9 nu se poate afla pe a doua
-pozitie deoarece acestea dau cel putin un caracter special care nu ar trebui sa fie in inputul oponentilor. Deci presupunerea facuta este falsa si parola oponentilor nu are 11 caractere. Acest lucru
+pozitie deoarece acestea dau cel putin un caracter special care nu ar trebui sa fie in inputul oponentilor. Deci presupunerea facuta este falsa si parola oponentilor nu are 12 caractere. Acest lucru
 este efectuat de scriptul cerinta2_parola_12.py.
 
 ----------------------------------------------------------------------------------------------------------------
