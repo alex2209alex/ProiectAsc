@@ -37,7 +37,7 @@ este efectuat de scriptul cerinta2_parola_12.py.
 Presupun prin absurd ca parola adversarilor are 13 caractere. Am testat compatibilitatea primului caracter posibil al parolei parcurgand sirul din 13 in 13. Dupa prima parcurgere am observat din analiza
 fisierului parola_13.txt ca doar 'P' si 'S' sunt compatibile. Prin continuarea testelor pentru fiecare pozitie in parola, am obtinut un set de caractere eligibile. Prin metoda backtraking am generat toate
 parolele posibile corecte in fisierul pass.txt. Acest fisier este generat cu ajutorul script-ului cerinta2_parola_13.py. Cu fiecare parola din fisier am decriptat primele 200 de caractere din output_oponenti.
-Am afisat rezultatele in fisierul fisier_verificare_parole.txt. Prin analiza rezultatelor am constatat ca textul incepe cu SURSA: http. Folosind functia de search din editor am gasit 6 parole care generau acest
+Am afisat rezultatele in fisierul fisier_verificare_parole.txt. Prin analiza rezultatelor am constatat ca textul incepe cu "SURSA: http". Folosind functia de search din editor am gasit 6 parole care generau acest
 output. Prin analiza celor 6 parole am constat ca cea corecta se afla pe linia 8668 in fisierul pass.txt, adica 'ProiectASC123'. Pentru a ne verifica am decriptat fisierul output_oponenti in fisierul
 input_recuperat_oponenti.txt si am constat ca textul era corect in limba romana. De aici rezulta ca parola oponentilor este 'ProiectASC123' si nu are rost sa continuam testarea pentru parole de 14, respectiv 15
 caractere.
